@@ -1,0 +1,9 @@
+{
+    "compilerOptions":{
+        "strict":true,  //enabling strict mode, null save
+        "target":"ESNext",  // use es modules, instead of require, we use import export
+        "module":"NodeNext",  // telling its a node project using es module syntax
+        "outDir":"../../dist-electron",  // where to put generated js
+        "skipLibCheck": true,  // ignore errors from dependencies
+    }
+}
